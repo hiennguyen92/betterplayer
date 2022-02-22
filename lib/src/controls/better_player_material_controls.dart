@@ -672,7 +672,7 @@ class _BetterPlayerMaterialControlsState
     if (_betterPlayerController!.controlsAlwaysVisible) {
       return;
     }
-    _hideTimer = Timer(const Duration(milliseconds: 800), () {
+    _hideTimer = Timer(const Duration(milliseconds: 1000), () {
       changePlayerControlsNotVisible(true);
     });
   }
